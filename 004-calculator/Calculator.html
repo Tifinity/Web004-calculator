@@ -1,0 +1,65 @@
+<!--
+    File: Calculator.html
+    Name: Tifinity/田皓
+    ID: 17343105
+    Mail: 1139390530@qq.com
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>Calculator</title>
+    <meta charset = "utf-8">
+    <link rel = "icon" type = "img" href = "image/timg.jpg">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "JavaScript.js" type = "text/javascript"></script>
+</head>
+
+<body onload = "init()">
+    <div id = "container">
+        <h1>My Calculator</h1>
+        <div id = "calculator">
+            <div id = "screen">
+                <input type="text" id = "show" value = ""/>
+            </div>
+            
+            <div id = "buttons">
+                <table>
+                    <tr>
+                        <th><input type = "button" value = "7" onclick = "show('7')"></th>
+                        <th><input type = "button" value = "8" onclick = "show('8')"></th>
+                        <th><input type = "button" value = "9" onclick = "show('9')"></th>
+                        <th><input type = "button" value = "/" onclick = "show('/')"></th>
+                    </tr>
+                    <tr>
+                        <th><input type = "button" value = "4" onclick = "show('4')"></th>
+                        <th><input type = "button" value = "5" onclick = "show('5')"></th>
+                        <th><input type = "button" value = "6" onclick = "show('6')"></th>
+                        <th><input type = "button" value = "*" onclick = "show('*')"></th>
+                    </tr>
+                    <tr>
+                        <th><input type = "button" value = "1" onclick = "show('1')"></th>
+                        <th><input type = "button" value = "2" onclick = "show('2')"></th>
+                        <th><input type = "button" value = "3" onclick = "show('3')"></th>
+                        <th><input type = "button" value = "-" onclick = "show('-')"></th>
+                    </tr>
+                    <tr>
+                        <th><input type = "button" value = "0" onclick = "show('0')"></th>
+                        <th><input type = "button" value = "." onclick = "show('.')"></th>
+                        <th><input type = "button" value = "←" onclick = "del()"></th>
+                        <th><input type = "button" value = "+" onclick = "show('+')"></th>
+                    </tr>
+                    <tr>
+                        <th><input type = "button" value = "(" onclick = "show('(')"></th>
+                        <th><input type = "button" value = ")" onclick = "show(')')"></th>
+                        <th><input type = "button" value = "CE" onclick = "clean()"></th>
+                        <th><input type = "button" value = "=" onclick = "equal()"></th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+

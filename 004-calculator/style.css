@@ -1,0 +1,77 @@
+/*
+    File: style.css
+    Name: Tifinity/田皓
+    ID: 17343105
+    Mail: 1139390530@qq.com
+*/
+
+body {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url("image/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 2048px 2048px;
+}
+
+input {
+    outline:none;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 40pt;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#calculator {
+    width: 450px;
+    height: 500px;
+    border: 1.5px solid #CCCCCC;
+    border-radius: 15px;
+    background-color: #336699;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#show {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 20pt;
+    border-radius: 15px;
+    width: 410px;
+    height: 70px;
+}
+
+#buttons table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons input {
+    width: 100px;
+    height: 70px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #FFF5EE;
+    cursor: pointer;
+    border: 2px solid #CCCCCC;
+    background-color: #003399;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+#buttons input:hover {
+    color: #333333;
+    background-color: #B0C4DE;    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
